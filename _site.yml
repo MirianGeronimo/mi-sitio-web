@@ -1,0 +1,16 @@
+name: "mi primer sitio web"    
+output_dir: "."
+navbar:
+  title: "Homepage"    
+  left:
+    - text: " Reporte-tarea2"    
+      href:  tarea2.nb.html    
+    - text: " Diapositivas"    
+      menu:
+        - text: "Tarea1"    
+          href: guiadeclase.html   
+        - text: "Diapositiva"
+          href: ejercicio3.html
+output: 
+  html_document:
+    theme: yeti    
